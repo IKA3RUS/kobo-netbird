@@ -8,8 +8,8 @@
 - Kobo Libra Colour
 
 This is the primary device used for testing. If you own a different Kobo device,
-feel free to install and test the process. If you are able to successfully run `netbird`
-after installation, please share your results!
+feel free to install and test the process. If you are able to successfully run
+`netbird` after installation, please share your results!
 
 ## Installation
 
@@ -17,8 +17,8 @@ after installation, please share your results!
 > `NETBIRD_VERSION` variable in `install-netbird.sh`.
 
 1. Download this repo onto your kobo e-reader's onboard storage.
-2. Make sure that your device is connected to the internet. Then telnet or SSH into
-   your device and run `install-netbird.sh`.
+2. Make sure that your device is connected to the internet. Then telnet or SSH
+   into your device and run `install-netbird.sh`.
 3. After the installation, you'll be prompted to run `netbird up`. Do that and
    follow the instructions to authenticate your e-reader!
 
@@ -52,13 +52,14 @@ certificate bundle**.
 
 ## Uninstallation
 
-Run `uninstall-netbird.sh`. All files provided by `kobo-netbird` and `netbird`
-including configs, logs and dependencies will be removed from your device.
+Telnet or SSH into your device and run `uninstall-netbird.sh`. All files
+provided by `kobo-netbird` and `netbird` including configs, logs and
+dependencies will be removed from your device.
 
 ## Acknowledgements
 
-- [videah](https://github.com/videah/kobo-tailscale) – This project
-  served as the idea and foundation for `kobo-netbird`.
+- [videah](https://github.com/videah/kobo-tailscale) – For the project
+  `kobo-tailscale` which served as the idea and foundation for `kobo-netbird`.
 - [Dylan Staley](https://dstaley.com/posts/tailscale-on-kobo-sage) – For
   detailed guidance on running Tailscale on the Kobo Sage.
 - [jmacindoe](https://github.com/jmacindoe/kobo-kernel-modules) – For
